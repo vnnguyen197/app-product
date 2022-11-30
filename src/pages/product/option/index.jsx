@@ -79,11 +79,28 @@ export default function FullWidthTabs() {
           textColor="inherit"
           variant="fullWidth"
           aria-label="full width tabs example"
+          sx={{ fontSize: "18px !important", fontWeight: "800 !important" }}
         >
-          <Tab label="Giới thiệu sản phẩm" {...a11yProps(0)} />
-          <Tab label="Thông số kỹ thuật" {...a11yProps(1)} />
-          <Tab label="Báo giá" {...a11yProps(2)} />
-          <Tab label="Ảnh công trình" {...a11yProps(3)} />
+          <Tab
+            label="Giới thiệu sản phẩm"
+            {...a11yProps(0)}
+            sx={{ fontSize: "18px !important", fontWeight: "800 !important" }}
+          />
+          <Tab
+            label="Thông số kỹ thuật"
+            {...a11yProps(1)}
+            sx={{ fontSize: "18px !important", fontWeight: "800 !important" }}
+          />
+          <Tab
+            label="Báo giá"
+            {...a11yProps(2)}
+            sx={{ fontSize: "18px !important", fontWeight: "800 !important" }}
+          />
+          <Tab
+            label="Ảnh công trình"
+            {...a11yProps(3)}
+            sx={{ fontSize: "18px !important", fontWeight: "800 !important" }}
+          />
         </Tabs>
       </AppBar>
       <SwipeableViews
