@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.images {
+  margin: 20px 0;
+}
+
+.styleImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  border-bottom: 0.0625rem solid rgb(239, 239, 239);
+  border-top: 0.0625rem solid rgb(239, 239, 239);
+  background-color: #b2f7ef;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.items:hover {
+  background-color: #ff8a25;
+  color: #fff;
+  transition: all 0.5s linear;
+}
