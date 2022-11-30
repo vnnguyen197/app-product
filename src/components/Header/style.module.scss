@@ -1,6 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 .images {
   margin: 20px 0;
@@ -15,11 +16,12 @@
 .menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
   align-items: center;
   border-bottom: 0.0625rem solid rgb(239, 239, 239);
   border-top: 0.0625rem solid rgb(239, 239, 239);
-  background-color:  gray;
+  background-color:  red;
   color: #fff;
 }
 
@@ -28,10 +30,12 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  font-weight: 500;
+  font-weight: bold;
   height: 50px;
   padding: 0 10px;
   text-transform: uppercase;
+  margin: 5px 0;
+  font-size: 18px;
 }
 
 .items:hover {
@@ -39,7 +43,7 @@
   color: #fff;
   transition: all 0.5s linear;
   cursor: pointer;
-  // display: flex;
+  border-radius: 50px;
 }
 
 .items:hover .listItems{

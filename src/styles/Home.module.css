@@ -1,8 +1,14 @@
 .container {
   padding: 0 2rem;
 }
-.content{
+.content {
   height: 67vh;
 }
 
+/* MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-fullWidth Mui-selected css-1vw5i9y-MuiButtonBase-root-MuiTab-root */
+.css-1vw5i9y-MuiButtonBase-root-MuiTab-root {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #000;
+}
 

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 300px;
+  padding: 10px 280px;
 }
 .containerContent {
   margin: 20px;
@@ -20,10 +20,13 @@
 .contentLeft {
   border: solid 1px #ccc;
 }
+
 .contentRight {
   width: 60%;
 }
+
 .title {
+  font-size: 17.5px;  
   margin-bottom: 1em;
   line-height: 25px;
 }

@@ -3,10 +3,14 @@ import Image from "next/image";
 import logoLongTho from "../../assets/imgs/gach/gach_product.jpg";
 import style from "./style.module.scss";
 import FullWidthTabs from "./option";
+import Head from "next/head";
 
 function Product() {
   return (
     <div className={style.container}>
+      <Head>
+        <title>Long Tho - Products</title>
+      </Head>
       <div className={style.containerContent}>
         <h1>Gạch lát Terrazzo</h1>
         <div className={style.main}>
