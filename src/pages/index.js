@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import Content from '../components/content/components'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import styles from "../styles/Home.module.css";
+import HomePage from "./homePage";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-        <Header/>
-        <Content/>
-        <Footer/>
+      <div className={styles.content}>
+        <HomePage />
+      </div>
     </div>
-  )
+  );
 }

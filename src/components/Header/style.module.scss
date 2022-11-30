@@ -17,23 +17,50 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  text-transform: uppercase;
   border-bottom: 0.0625rem solid rgb(239, 239, 239);
   border-top: 0.0625rem solid rgb(239, 239, 239);
-  background-color: #b2f7ef;
+  background-color:  gray;
+  color: #fff;
 }
 
 .items {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   font-weight: 500;
   height: 50px;
   padding: 0 10px;
+  text-transform: uppercase;
 }
 
 .items:hover {
   background-color: #ff8a25;
   color: #fff;
   transition: all 0.5s linear;
+  cursor: pointer;
+  // display: flex;
+}
+
+.items:hover .listItems{
+  display: block;
+}
+
+.listItems{
+  display: none;
+  position: absolute;
+  top: 50px;
+  background-color: #b2f7ef;
+  color: #000;
+  margin-left: 22px;
+}
+.titleProduct{
+  width: 150px;
+  font-size: 14px;
+  padding: 8px 15px;
+  text-transform:none;
+}
+.titleProduct:hover{
+  background-color: #ffb0bc;
+  cursor: pointer;
 }
