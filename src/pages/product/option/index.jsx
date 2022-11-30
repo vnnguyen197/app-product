@@ -234,29 +234,18 @@ export default function FullWidthTabs() {
         <TabPanel value={value} index={3} dir={theme.direction}>
           <div className={style.images}>
             <Image src={prd1} width={500} alt="" />
-          </div>
-          <div className={style.images}>
             <Image src={prd2} width={500} alt="" />
           </div>
           <div className={style.images}>
             <Image src={prd3} width={500} alt="" />
-          </div>
-          <div className={style.images}>
             <Image src={prd4} width={500} alt="" />
           </div>
           <div className={style.images}>
             <Image src={prd5} width={500} alt="" />
-          </div>
-          <div className={style.images}>
-            <Image src={prd5} width={500} alt="" />
-          </div>
-          <div className={style.images} style={{ padding: "10px 0" }}>
             <Image src={prd6} width={500} alt="" />
           </div>
           <div className={style.images} style={{ padding: "10px 0" }}>
             <Image src={prd7} width={500} alt="" />
-          </div>
-          <div className={style.images} style={{ padding: "10px 0" }}>
             <Image src={prd8} width={500} alt="" />
           </div>
           <div className={style.images} style={{ padding: "10px 0" }}>
